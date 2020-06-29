@@ -24,7 +24,10 @@ class Navbar extends Component {
           <button className="btn btn-success my-2 my-sm-0 mr-4" type="submit">
             My Account
           </button>
-          <i className="fa fa-shopping-cart mr-2"> Cart</i>
+          <i className="fa fa-shopping-cart mr-2">
+            {" "}
+            Cart <span className="badge badge-light">0</span>
+          </i>
         </div>
       </nav>
     );

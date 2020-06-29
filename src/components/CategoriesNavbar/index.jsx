@@ -4,22 +4,22 @@ import "./style.css";
 
 function CategoriesNavbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <Link to="/men-section">
-              <a className="nav-link">Men</a>
+            <Link to="/men-section" className="nav-link">
+              Men
             </Link>
           </li>
           <li className="nav-item active">
-            <Link to="/women-section">
-              <a className="nav-link">Women</a>
+            <Link to="/women-section" className="nav-link">
+              Women
             </Link>
           </li>
           <li className="nav-item active">
-            <Link to="/kids-section">
-              <a className="nav-link">Kids</a>
+            <Link to="/kids-section" className="nav-link">
+              Kids
             </Link>
           </li>
           {/* <li className="nav-item active">

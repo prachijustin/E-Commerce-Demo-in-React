@@ -9,6 +9,7 @@ import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Kids from "./pages/Kids";
 import CategoriesNavbar from "./components/CategoriesNavbar";
+import Item from "./components/Item";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/women-section" component={Women} />
           <Route path="/kids-section" component={Kids} />
         </Switch>
+        <Item />
       </Router>
     </React.Fragment>
   );
